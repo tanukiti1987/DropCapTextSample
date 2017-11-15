@@ -12,6 +12,8 @@
 		A1519C241FBC47BE006E8B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1519C221FBC47BE006E8B27 /* Main.storyboard */; };
 		A1519C261FBC47BE006E8B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1519C251FBC47BE006E8B27 /* Assets.xcassets */; };
 		A1519C291FBC47BE006E8B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1519C271FBC47BE006E8B27 /* LaunchScreen.storyboard */; };
+		A1519C321FBC47D6006E8B27 /* DropCapTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1519C311FBC47D6006E8B27 /* DropCapTextView.swift */; };
+		A1519C341FBC47E3006E8B27 /* DropCapTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1519C331FBC47E3006E8B27 /* DropCapTextView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A1519C251FBC47BE006E8B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1519C281FBC47BE006E8B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1519C2A1FBC47BE006E8B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1519C311FBC47D6006E8B27 /* DropCapTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropCapTextView.swift; sourceTree = "<group>"; };
+		A1519C331FBC47E3006E8B27 /* DropCapTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropCapTextView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		A1519C1D1FBC47BE006E8B27 /* DropCapTextSample */ = {
 			isa = PBXGroup;
 			children = (
+				A1519C301FBC47C6006E8B27 /* Views */,
 				A1519C1E1FBC47BE006E8B27 /* AppDelegate.swift */,
 				A1519C201FBC47BE006E8B27 /* ViewController.swift */,
 				A1519C221FBC47BE006E8B27 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				A1519C2A1FBC47BE006E8B27 /* Info.plist */,
 			);
 			path = DropCapTextSample;
+			sourceTree = "<group>";
+		};
+		A1519C301FBC47C6006E8B27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1519C331FBC47E3006E8B27 /* DropCapTextView.xib */,
+				A1519C311FBC47D6006E8B27 /* DropCapTextView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1519C291FBC47BE006E8B27 /* LaunchScreen.storyboard in Resources */,
+				A1519C341FBC47E3006E8B27 /* DropCapTextView.xib in Resources */,
 				A1519C261FBC47BE006E8B27 /* Assets.xcassets in Resources */,
 				A1519C241FBC47BE006E8B27 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1519C321FBC47D6006E8B27 /* DropCapTextView.swift in Sources */,
 				A1519C211FBC47BE006E8B27 /* ViewController.swift in Sources */,
 				A1519C1F1FBC47BE006E8B27 /* AppDelegate.swift in Sources */,
 			);
